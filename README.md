@@ -19,9 +19,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Screenshot
 
 <p float="left">
-<img src="https://github.com/aviralsharma07/3-Column-Card-Component/blob/0907d08d90f987bb4c658d34db11b75cf9f92a8e/FireShot%20Capture%20008%20-%20Frontend%20Mentor%20-%203-column%20preview%20card%20component_%20-%203col-card-component.netlify.app.png" width="20%" height="347px">
+<img src="https://github.com/aviralsharma07/product-preview-card-component/blob/0df2dbaf209cfbdab46bdd3d2474c32b1339f8a1/prodmobile.png" width="25%" height="350px">
 
-<img src="https://github.com/aviralsharma07/3-Column-Card-Component/blob/0907d08d90f987bb4c658d34db11b75cf9f92a8e/FireShot%20Capture%20005%20-%20Frontend%20Mentor%20-%203-column%20preview%20card%20component_%20-%203col-card-component.netlify.app.png" width="79%" height="347px">
+<img src="https://github.com/aviralsharma07/product-preview-card-component/blob/0df2dbaf209cfbdab46bdd3d2474c32b1339f8a1/proddesktop.png" width="72%" height="350px">
 </p>
 
 ### Links
@@ -40,8 +40,15 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### What I learned
 
-1. Sometimes Padding is enough to align thing, setting margin is not required.
-
+1. Adding Different Images for Mobile and Desktop Version through Image element and srcset attribute.
+```html
+      <picture class="section product-photo">
+        <source srcset="/images/image-product-mobile.jpg" media="(max-width:600px)">
+        <img src="/images/image-product-desktop.jpg" alt="Perfume Image">
+      </picture>
+```
+2. Use of gap to give spacing between Flex children.
+3. 
 ### Continued development
 
 Moving ahead:
@@ -57,6 +64,8 @@ Moving ahead:
 
 ## Author
 
+- Twitter - [_aviral07](https://www.twitter.com/_aviral07)
 - Website - [Aviral Sharma](https://github.com/aviralsharma07)
 - Frontend Mentor - [aviralsharma07](https://www.frontendmentor.io/profile/aviralsharma07)
-- Twitter - [_aviral07](https://www.twitter.com/_aviral07)
+- Blogs - [My Technical Blogs](https://codedamn.com/news/author/aviralsharma)
+
