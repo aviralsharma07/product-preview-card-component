@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    font-size: 16px;
+    background-color: hsl(30, 38%, 92%);
+    padding: 2rem;
+}
+
+.preview-card{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.section{
+    width: 15rem;
+    height: 23.5rem;
+}
+
+.product-info{
+    padding: 1.5rem;
+}
+
+.product-photo img{
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: 15px 0 0 15px;
+}
+
+@media all and (max-width:600px) {
+    .preview-card{
+        justify-content: flex-start;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    .product-photo img{
+        border-radius: 15px 15px 0 0;;
+    }
+
+    .section{
+        width: 22.5rem;
+        height: 20.5rem;
+    }
+    
+}
+.perfume, .product-description, .orignal-price{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%)
+}
+
+.perfume{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.heading{
+    font-family: 'Fraunces', serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: hsl(212, 21%, 14%)
+}
+
+.product-description{
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.discounted-price{
+    color: hsl(158, 36%, 37%);
+    font-size: 1.65rem;
+    font-family: 'Fraunces', serif;
+    align-self: center;
+}
+
+.orignal-price{
+    justify-self: start;
+    font-size: 0.85rem;    
+}
+.button{
+    border-radius: 5px;
+    height: 3rem;
+    width: 12rem;
+    background-color: hsl(158, 36%, 37%);
+    outline: none;
+    border-style: none;
+}
+
+.button:hover{
+    border-style:ridge;
+    outline:hsl(212, 21%, 14%);
+    outline-width: 20px;
+}
+
+.attribution { 
+    margin-top: 5rem;
+    font-size: 11px; text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
