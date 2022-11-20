@@ -26,8 +26,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-using-flexbox-0-YjHGFxc6)
-- Live Site URL: [3 Column Preview Card](https://3col-card-component.netlify.app/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-uST1FTWaeM)
+- Live Site URL: [3 Column Preview Card](https://product-preview-card-avi.netlify.app/)
 
 ## My process
 
@@ -48,7 +48,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
       </picture>
 ```
 2. Use of gap to give spacing between Flex children.
-3. 
+
 ### Continued development
 
 Moving ahead:
